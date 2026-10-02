@@ -1,6 +1,9 @@
 plugins { id 'com.android.application' }
 
 android {
+    buildFeatures {
+    buildConfig true
+}
     namespace 'com.planora.app'
     compileSdk 35
 
